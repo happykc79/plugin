@@ -4,7 +4,7 @@ info:
   description:  Plugins for saying Hello
   version: 'v1'
 servers:
-  - url: http://localhost:5003/api/v1
+  - url: http://localhost:5003
 paths:
   /hello/{name}:
     get:
