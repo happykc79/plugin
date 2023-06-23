@@ -19,7 +19,7 @@ async def plugin_logo():
 async def plugin_manifest():
     host = request.headers['Host']
     with open("./.well-known/ai-plugin.json") as f:
-        text = f.read()
+        text = f.read()  
         return quart.Response(text, mimetype="text/json")
 
 @app.get("/openapi.yaml")
