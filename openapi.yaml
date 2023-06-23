@@ -6,7 +6,7 @@ info:
 servers:
   - url: http://localhost:5003
 paths:
-  /todos/{username}:
+  /hello/{name}:
     get:
       operationId: getHelloWorld
       summary: Get a response to say hello world.
